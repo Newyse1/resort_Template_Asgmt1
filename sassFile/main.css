@@ -1,0 +1,104 @@
+body {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  background-image: url("../images/banner-1.jpg");
+}
+
+.menu {
+  background-color: rgba(0, 0, 0, 0.36);
+}
+
+.loginSocial {
+  border-bottom: 1px solid rgba(156, 142, 142, 0.6);
+  padding: 10px 0px;
+}
+
+.login {
+  padding: 0px;
+}
+
+.login li {
+  padding: 0px 20px;
+  list-style: none;
+}
+
+.login li a {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.login li a .logIcon {
+  padding-right: 5px;
+}
+
+.social {
+  padding: 0px;
+}
+
+.social li {
+  padding: 0px 5px;
+  list-style: none;
+}
+
+.social li a {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar .navbar-brand {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-item a {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.phoneNo {
+  background-color: #ffffff;
+  border-radius: 25px;
+  color: #000000;
+}
+
+.phoneNo a {
+  padding: 0px;
+  color: #000000 !important;
+}
+
+.phoneNo i {
+  padding-right: 5px;
+}
+
+.arrowDown {
+  padding-left: 5px;
+  color: #ffffff;
+}
+
+.formLayout {
+  padding: 250px 0px;
+}
+
+.formDesign {
+  background: rgba(0, 0, 0, 0.36);
+  padding: 20px;
+}
+
+.cardInfo {
+  top: -150px;
+}
+
+.cardInfo h2 {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,249 @@
+body {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.header {
+  background-image: url("../images/banner-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.menu {
+  background-color: rgba(0, 0, 0, 0.36);
+  width: 100%;
+  z-index: 1; }
+
+.loginSocial {
+  border-bottom: 1px solid rgba(156, 142, 142, 0.6);
+  padding: 10px 0px; }
+
+.login {
+  padding: 0px; }
+  .login li {
+    padding: 0px 20px;
+    list-style: none; }
+    .login li a {
+      color: #ffffff;
+      font-family: "Roboto", sans-serif; }
+      .login li a .logIcon {
+        padding-right: 5px; }
+
+.social {
+  padding: 0px; }
+  .social li {
+    padding: 0px 5px;
+    list-style: none; }
+    .social li a {
+      color: #ffffff;
+      font-family: "Lato", sans-serif;
+      font-family: "Roboto", sans-serif; }
+
+.navbar .navbar-brand {
+  font-size: 28px;
+  color: #ffffff; }
+.navbar .navbar-nav .nav-item a {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.phoneNo {
+  background-color: #ffffff;
+  border-radius: 25px;
+  color: #000000; }
+  .phoneNo a {
+    padding: 0px;
+    color: #000000 !important; }
+  .phoneNo i {
+    padding-right: 5px; }
+
+.arrowDown {
+  padding-left: 5px;
+  color: #ffffff; }
+
+.formLayout {
+  padding: 250px 0px; }
+
+.formDesign {
+  background: rgba(0, 0, 0, 0.36);
+  padding: 20px; }
+
+.cardInfo {
+  top: -150px; }
+  .cardInfo h2 {
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 500; }
+  .cardInfo .cardDiv {
+    padding: 0px; }
+
+.cardDetail:hover .overlay {
+  display: block; }
+
+.overlay {
+  padding: 65px 0px;
+  top: 0px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.36);
+  width: 100%;
+  height: 100%;
+  display: none; }
+  .overlay:hover {
+    display: block; }
+
+.coroselSlider {
+  padding: 100px 0px; }
+  .coroselSlider h2 {
+    color: #636363;
+    margin-bottom: 28px; }
+  .coroselSlider p {
+    margin-bottom: 48px; }
+
+.cardDetailPrice {
+  margin: 0px;
+  border: 1px solid rgba(156, 142, 142, 0.6); }
+  .cardDetailPrice h6 {
+    color: #f29200; }
+  .cardDetailPrice .ratingStar {
+    color: #f29200; }
+  .cardDetailPrice a {
+    background: #ff6600;
+    color: #ffffff; }
+
+.resortInfo {
+  padding: 0px; }
+  .resortInfo h2 {
+    color: #636363;
+    margin-bottom: 28px; }
+
+.readMore a {
+  color: #ff6600; }
+
+/*
+
+CC 2.0 License Iatek LLC 2018
+Attribution required
+
+*/
+.text-muted {
+  color: #ff6600 !important;
+  font-size: 28px;
+  padding: 14px;
+  background: #000000;
+  border-radius: 25%; }
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 9px; }
+
+@media (min-width: 768px) {
+  /* show 3 items */
+  .carousel-inner .active,
+  .carousel-inner .active + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item {
+    display: block; }
+
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+    transition: none; }
+
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0); }
+
+  .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    z-index: -1;
+    display: block;
+    visibility: visible; }
+
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible; }
+
+  /* farthest right hidden item must be abso position for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible; }
+
+  /* right or prev direction */
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible; } }
+.signup {
+  background: url("../images/banner.jpg");
+  padding: 100px 0px; }
+  .signup .signUpForm {
+    padding: 30px;
+    background: #f29200; }
+    .signup .signUpForm h5 {
+      color: #ffffff;
+      font-weight: 400; }
+
+.services {
+  padding: 100px 0px;
+  color: #636363; }
+  .services .servicesIcon {
+    color: #f29200;
+    font-size: 88px; }
+
+.footer {
+  padding: 100px 0px;
+  background: #636363; }
+  .footer ul li {
+    list-style: none; }
+    .footer ul li a {
+      font-size: 12px;
+      color: #ffffff; }
+  .footer .copyright {
+    color: #ffffff;
+    margin-top: 20px; }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 18px; }
+
+  .cardDetailPrice h6 {
+    font-size: 15px; }
+  .cardDetailPrice .ratingStar {
+    font-size: 17px; } }
+@media only screen and (max-width: 991px) {
+  .cardDetail:last-child {
+    margin-top: 28px;
+    text-align: center; } }
+@media only screen and (max-width: 767px) {
+  p {
+    font-size: 18px;
+    margin-top: 5px; }
+
+  .cardDetail {
+    margin-top: 28px;
+    text-align: center; }
+
+  .signUpForm h5 {
+    margin-bottom: 18px; }
+  .signUpForm .btnSignUp {
+    text-align: center;
+    margin-top: 18px; } }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Raleway', sans-serif;
+*/
+.background-property {
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image-breadcrumb {
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 70px 0;
+  background-size: cover;
+}
+
+.cubic-bezier-transition {
+  -webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+/*# sourceMappingURL=base.css.map */

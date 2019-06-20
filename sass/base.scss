@@ -1,0 +1,49 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+// Colors
+$primary-color: #ff6600;
+$secondary-color: #f29200;
+$footer-color: #636363;
+$header-color:#07304c;
+$form-bg-color:#575755;
+$white-color: #ffffff;
+$black-color: #000000;
+$dark-brown: #281700;
+// Font
+$primary-font:'Lato',
+sans-serif;
+$secondary-font: 'Roboto',
+sans-serif;
+$heading-font:'Roboto',
+sans-serif;
+// Font-size
+$font-size-md: 14px;
+$font-size-fs: 15px;
+$font-size-lg: 18px;
+// Background Property
+.background-property {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-breadcrumb {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px 0;
+    background-size: cover;
+}
+
+.cubic-bezier-transition {
+    -webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    -moz-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition-timing-function: ease-out;
+}
